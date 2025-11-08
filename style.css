@@ -149,7 +149,7 @@ h2 {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 430px) {
   .h1 {
     white-space: nowrap;
     font-size: 1.5rem; /* ajusta el tamaño según necesites */
