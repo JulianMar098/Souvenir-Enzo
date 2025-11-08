@@ -149,3 +149,12 @@ h2 {
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  .h1 {
+    white-space: nowrap;
+    font-size: 1.5rem; /* ajusta el tamaño según necesites */
+    padding: 10px;
+    text-align: center;
+  }
+}
+
