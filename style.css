@@ -36,6 +36,9 @@ body {
   background-color: #FFF4CC;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .h1 {
@@ -95,6 +98,11 @@ main {
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex: 1;
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 20px 0;
 }
 
 h2 {
@@ -260,5 +268,46 @@ h2 {
     height: auto;
     padding: 10px 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-height: 601px) and (max-height: 760px) {
+  main {
+    height: auto;
+    min-height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .h1 {
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: clamp(1.1rem, 4.5vw, 1.3rem);
+    margin: 5px 0;
+  }
+
+  .enzo_1 {
+    max-width: 350px;
+    margin: 10px auto;
+  }
+
+  .texto1 {
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 0 15px;
+  }
+
+  .patita_enzo {
+    margin-bottom: 5px;
+  }
+
+  .tabs ul {
+    gap: 15px;
+    margin: 5px 0;
   }
 }
