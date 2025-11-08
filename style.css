@@ -165,3 +165,29 @@ h2 {
   }
 }
 
+@media screen and (max-width: 438px) {
+  .h1 {
+    white-space: normal;                    
+    font-size: clamp(1.1rem, 6.5vw, 1.4rem);
+    padding: 8px 12px;
+    text-align: center;
+    overflow-wrap: anywhere;              
+    line-height: 1.1;
+  }
+
+  h2 {
+    white-space: normal;
+    font-size: clamp(1rem, 5.5vw, 1.2rem);
+    padding: 6px 10px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 94%;                      
+    overflow-wrap: anywhere;
+    line-height: 1.15;
+  }
+
+  main {
+    height: auto;
+    padding-bottom: 24px;
+  }
+}
