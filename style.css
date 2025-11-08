@@ -9,49 +9,41 @@
   src: url('./assets/fonts/Nunito/static/Nunito-Bold.ttf') format('truetype');
   font-weight: bold;
 }
-
 .patita_enzo {
     display: flex;
     justify-content: center;
     margin-bottom: 10px; 
     padding-top: 10px;   
 }
-
 .patita_enzo img {
     width: 60px;
     height: 80px;       
     border-radius: 10%; 
     object-fit: cover;  
 }
-
-
 header {
   background-color: #FFDD99;
   padding: 15px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding-top: 0;
 }
-
 body {
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #FFF4CC;
   margin: 0;
   padding: 0;
 }
-
 .h1 {
     text-align: center;
     font-family: 'fnunito', sans-serif;
     color: #333;
     margin-top: 20px;
 }
-
 .tabs {
   margin-top: 10px;
   font-family: 'fnunito', sans-serif;
   font-weight: bolder;
 }
-
 .tabs ul {
   display: flex;
   justify-content: center;
@@ -60,7 +52,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .tabs li {
   cursor: pointer;
   background-color: #FFF4CC;
@@ -69,18 +60,15 @@ body {
   padding: 0;
   overflow: hidden;
 }
-
 .tabs li a {
   display: block;
   padding: 10px 20px;
   color: inherit;
   text-decoration: none;
 }
-
 .tabs li:hover {
   background-color: #ecd684;
 }
-
 .tabs a,
 .tabs a:link,
 .tabs a:visited {
@@ -88,7 +76,6 @@ body {
   text-decoration: none; 
   display: inline-block; 
 }
-
 main {
     display: flex;
     flex-direction: column; 
@@ -97,7 +84,6 @@ main {
     height: 100vh;
     margin: 0;
 }
-
 h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -106,7 +92,6 @@ h2 {
     font-weight: bold;
     font-size: x-large;
 }
-
 .enzo_1 {
   background-color: #FFCC80;
   padding: 20px;
@@ -116,7 +101,6 @@ h2 {
   height: auto;
   border-radius: 12px; 
 }
-
 .texto1 {
     font-family: 'fnunito', sans-serif;
     font-size: 18px;
@@ -126,7 +110,6 @@ h2 {
     max-width: 600px;
     margin-top: 20px;
 }
-
 .video-enzo {
   background: #FFDD99;
   padding: 20px;            
@@ -138,7 +121,6 @@ h2 {
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   box-sizing: border-box;
 }
-
 .video-enzo iframe {
   width: 100%;
   aspect-ratio: 16 / 9;          
@@ -148,7 +130,6 @@ h2 {
   border-radius: 8px;
   display: block;
 }
-
 @media screen and (max-width: 487px) {
   .h1 {
     white-space: nowrap;
@@ -164,7 +145,6 @@ h2 {
     margin: 10px auto;
   }
 }
-
 @media screen and (max-width: 438px) {
   .h1 {
     white-space: normal;                    
@@ -174,7 +154,6 @@ h2 {
     overflow-wrap: anywhere;              
     line-height: 1.1;
   }
-
   h2 {
     white-space: normal;
     font-size: clamp(1rem, 5.5vw, 1.2rem);
@@ -185,7 +164,6 @@ h2 {
     overflow-wrap: anywhere;
     line-height: 1.15;
   }
-
   main {
     height: auto;
     padding-bottom: 24px;
