@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="shortcut icon" href="../imagenes/Patita-enzo.webp" type="image/jpeg">
+  <link rel="stylesheet" href="../../style.css">
+  <title>Primer Año</title>
+</head>
+<body>
+  <header>
+    <a href="../../index.html" class="patita_enzo"><img src="../imagenes/Patita-enzo.webp" alt="Patita de enzo"></a>
+    <h1 class="h1">Mi crecimiento❤️</h1>
+    <nav class="tabs">
+      <ul>
+        <li class="tab" data-target="mi_historia"><a href="../pages/mi_historia.html">Mi Historia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="primer-ano-container">
+      <div class="leaf leaf-top-left">🌿</div>
+      <div class="leaf leaf-top-right">🌿</div>
+      <div class="leaf leaf-bottom-left">🌿</div>
+      <div class="leaf leaf-bottom-right">🌿</div>
+
+      <div class="titulo-contenedor">
+        <div class="lion-icon">🦁</div>
+        <p>PRIMEROS DOCE MESES DE CRECIMIENTO</p>
+        <h1>Enzo</h1>
+      </div>
+
+      <div class="meses-grid">
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">UNO</div>
+          <img src="../imagenes/Mes-1.webp" alt="Mes 1" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">DOS</div>
+          <img src="../imagenes/Mes-2.webp" alt="Mes 2" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">TRES</div>
+          <img src="../imagenes/Mes-3.webp" alt="Mes 3" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">CUATRO</div>
+          <img src="../imagenes/Mes-4.webp" alt="Mes 4" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">CINCO</div>
+          <img src="../imagenes/Mes-5.webp" alt="Mes 5" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">SEIS</div>
+          <img src="../imagenes/Mes-6.webp" alt="Mes 6" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">SIETE</div>
+          <img src="../imagenes/Mes-7.webp" alt="Mes 7" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">OCHO</div>
+          <img src="../imagenes/Mes-8.webp" alt="Mes 8" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">NUEVE</div>
+          <img src="../imagenes/Mes-9.webp" alt="Mes 9" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">DIEZ</div>
+          <img src="../imagenes/Mes-10.webp" alt="Mes 10" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">ONCE</div>
+          <img src="../imagenes/Mes-11.webp" alt="Mes 11" class="mes-imagen">
+        </div>
+        <div class="mes-card" onclick="abrirModal(this)">
+          <div class="mes-numero">DOCE</div>
+          <img src="../imagenes/Mes 12.webp" alt="Mes 12" class="mes-imagen">
+        </div>
+      </div>
+    </div>
+
+    <div id="modal" class="modal" onclick="cerrarModal()">
+      <div class="modal-contenido" onclick="event.stopPropagation()">
+        <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
+        <img id="modal-imagen" src="" alt="Expandida" class="modal-imagen">
+      </div>
+    </div>
+  </main>
+
+  <script src="../../primer_ano.js"></script>
+</body>
+</html>
